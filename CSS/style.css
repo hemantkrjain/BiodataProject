@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    background-image: url(../back.jpg);
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow-x: hidden;
+  /* background-color: rgba(10,20,30, 0.2); */
+}
+#image{
+    height: 100%;
+    width: 100%;
+}
+#home{
+    position: sticky;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(142, 166, 168, 0.5);
+}
+.ul1{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.li1{
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+    font-size: large;
+    margin: 23px 39px;
+    padding: 7px ;
+    cursor: pointer;
+    
+}
+.li1:hover{
+    color: lightblue;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+
+}
+.about{
+    width:100%;
+    padding: 10px;
+    color: rgb(192 188 230);
+    margin-left: 40px;
+}
+.about h2{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    color: white;
+}
+.about p{
+    width: 90%;
+}
+.edu{
+    color: lightblue;
+    width: 100%;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.edu h2{
+    text-align: left;
+    padding-bottom: 10px;
+    color: white;
+    
+}
+.tec{
+    width: 100%;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 40px;
+    color: antiquewhite;
+}
+.tec h2{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.tec ul li{
+    list-style: none;
+}
+.proj{
+    width: 100%;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.proj h2{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.proj p{
+    color: rgb(203, 231, 217);
+}
+.proj a{
+    color: rgb(150, 191, 225);
+    text-decoration: none;
+}
+.socials{
+    width: 100%;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.socials h2{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.socials a{
+    color: rgb(150, 191, 225);
+    text-decoration: none;
+}
+.contact{
+    width: 100%;
+    padding: 10px;
+    padding-top: 50px;
+    margin-left: 40px;
+}
+.contact h2{
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+.contact p{
+    color: darkgray;
+}
+
+
+.foot{
+   
+    
+    background-color: rgba(0,0,0,0.5);
+    height: 100px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    
+}
+.foot p{
+    font-size: 20px;
+    padding: 40px;
+    color: aliceblue;
+    position: relative;
+}
+
+
